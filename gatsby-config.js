@@ -6,12 +6,12 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Swastik Yadav`,
-    siteTitleAlt: `Swastik Yadav | Writing about tech, startup, and finance.`,
+    siteTitle: `Prasanth Chaduvula`,
+    siteTitleAlt: `Prasanth Chaduvula | Writing about tech, startup, and movies.`,
     siteUrl: `https://swastikyadav.com`,
-    siteDescription: `Personal website and blog of Swastik Yadav. I write about Tech, Startup, Building Products, and Finance. Thanks for visiting.`,
+    siteDescription: `Personal website and blog of Prasanth Chaduvula. I write about Tech, Startup, Building Products, and Movies. Thanks for visiting.`,
     siteLanguage: `en`,
-    author: `@codeSwastik`,
+    author: `Prasanth Chaduvula`,
   },
   plugins: [
     {
@@ -26,7 +26,11 @@ module.exports = {
           {
             title: `Tags`,
             slug: `/tags`,
-          }
+          },
+          {
+            title: `About`,
+            slug: `/about`,
+          },
         ],
       },
     },
@@ -40,9 +44,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Swastik Yadav | Tech, Startup, Products, and Finance`,
-        short_name: `Swastik`,
-        description: `Personal website and blog of Swastik Yadav. I write about Tech, Startup, Building Products, and Finance. Thanks for visiting.`,
+        name: `Prasanth Chaduvula | Tech, Startup, Products, and Movies`,
+        short_name: `Prasanth`,
+        description: `Personal website and blog of Prasanth Chaduvula. I write about Tech, Startup, Building Products, and Movies. Thanks for visiting.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
